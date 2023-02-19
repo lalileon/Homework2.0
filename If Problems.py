@@ -9,7 +9,7 @@ try:
         exit()
 
 except ValueError:
-    print("The input has to be a number")
+    print("The input has to be a number.")
     exit()
 if salary < 1000:
     net_salary = (0.9 + (number_children * 0.01)) * salary
